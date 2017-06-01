@@ -1,0 +1,16 @@
+{
+  "name": "micro-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jesse Kriss <jesse@jklabs.net>",
+  "scripts": {
+    "start": "micro index.js",
+    "dev": "nodemon -x \"micro index.js\""
+  },
+  "dependencies": {
+    "micro": "^7.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
